@@ -1,0 +1,4 @@
+flake8
+tox
+sphinx-rtd-theme
+six>=1.10
