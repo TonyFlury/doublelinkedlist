@@ -67,9 +67,9 @@ class LinkedList():
         self._tail = None
         self._forward = True
 
-        def reverse(self):
-            """Change direction of the list"""
-            self._forward = not self._forward
+    def reverse(self):
+        """Change direction of the list"""
+        self._forward = not self._forward
 
     def append(self, node):
         """Add a Node to the end of the list (i.e. where self._tail is)"""
